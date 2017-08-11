@@ -1,0 +1,102 @@
+
+body {margin: 0;
+    font-family: "helvetica", sans-serif;
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+    text-align: center;}
+
+div {display: block;}
+
+header {
+        align-items: center;
+        width: 100%;
+        height: 69px;
+        background-color: black;
+        border-bottom: 1px solid seashell;
+        position: fixed;
+        margin: 0;
+        padding: 0;
+        z-index: 1;}
+
+.flex-container { display: flex;
+                justify-content: center;
+                flex-wrap: wrap;}
+
+
+nav span {display: inline-block;
+            padding: 20px 10px;
+            }
+
+nav {text-align: right;
+    flex-grow: 1;}
+
+header img {padding-left: 10px;
+        height: 50px;}
+
+a {color: seashell;}
+
+/* Mission */
+
+#mission {
+    height: 700px;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    padding-top: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.content {
+                    background-color: black;
+                    width: 100%;
+                    margin: auto;}
+
+/* store section */
+
+#store {
+    height: 700px;
+    width: 1000px;
+    padding: 70px;
+    margin: auto;
+}
+
+.item {padding: 5px;}
+
+.item img {height:200px;
+            margin:10px;
+            display:block;}
+
+.item span {display: block;
+            font-weight: bold;
+            text-align: center;
+            padding: 5px;}
+
+/* location */
+
+#locations {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg"); 
+    height: 500px;
+    padding-top: 70px;
+    background-repeat:no-repeat;
+    background-size:cover;}
+
+
+.location {opacity: 1.0;
+            padding: 10px;
+            margin: 5px 20px;
+            background-color: black;
+            flex-basis: 280px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;}
+
+
+.flex-container.locations {padding-top: 5px;
+                           flex-wrap: nowrap; }
+
+h2, h3, h4 {Margin:0;
+            padding:10px;}
+
+.footer {text-align: center;}
+
+.copyright {text-align: left;}
